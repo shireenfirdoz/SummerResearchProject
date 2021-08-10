@@ -1,0 +1,6 @@
+applications:
+- name: Welcome-APP
+path: target/spring-cloud-google-0.0.1-SNAPSHOT.jar
+domain: cfapps.io
+memory: 950M
+instances: 1

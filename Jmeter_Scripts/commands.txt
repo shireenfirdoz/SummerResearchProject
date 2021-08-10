@@ -1,0 +1,26 @@
+sudo mkdir report_128_advanced_servlet report_256_advanced_servlet report_512_advanced_servlet report_1024_advanced_servlet
+
+sudo ../apache-jmeter-5.4.1/bin/jmeter -n -t Servlet_Test_Plan.jmx -l 128_basic_servlet.jtl -e -o report_128_advanced_servlet -Jthreads=128
+sudo ../apache-jmeter-5.4.1/bin/jmeter -n -t Servlet_Test_Plan.jmx -l 256_basic_servlet.jtl -e -o report_256_advanced_servlet -Jthreads=256
+sudo ../apache-jmeter-5.4.1/bin/jmeter -n -t Servlet_Test_Plan.jmx -l 512_basic_servlet.jtl -e -o report_512_advanced_servlet -Jthreads=512
+sudo ../apache-jmeter-5.4.1/bin/jmeter -n -t Servlet_Test_Plan.jmx -l 1024_basic_servlet.jtl -e -o report_1024_advanced_servlet -Jthreads=1024
+
+
+
+sudo ../apache-jmeter-5.4.1/bin/jmeter -n -t Spring_Boot_Basic_Test_Plan.jmx -l 128_basic_java.jtl -e -o report_128_basic_springboot -Jthreads=128
+sudo ../apache-jmeter-5.4.1/bin/jmeter -n -t Spring_Boot_Basic_Test_Plan.jmx -l 256_basic_java.jtl -e -o report_256_basic_springboot -Jthreads=256
+sudo ../apache-jmeter-5.4.1/bin/jmeter -n -t Spring_Boot_Basic_Test_Plan.jmx -l 512_basic_java.jtl -e -o report_512_basic_springboot -Jthreads=512
+sudo ../apache-jmeter-5.4.1/bin/jmeter -n -t Spring_Boot_Basic_Test_Plan.jmx -l 1024_basic_java.jtl -e -o report_1024_basic_springboot -Jthreads=1024
+
+
+
+sudo ../apache-jmeter-5.4.1/bin/jmeter -n -t Spring_Boot_Advanced_Test_Plan.jmx -l 128_basic_java.jtl -e -o report_128_advance_springboot -Jthreads=128
+sudo ../apache-jmeter-5.4.1/bin/jmeter -n -t Spring_Boot_Advanced_Test_Plan.jmx -l 256_basic_java.jtl -e -o report_256_advance_springboot -Jthreads=256
+sudo ../apache-jmeter-5.4.1/bin/jmeter -n -t Spring_Boot_Advanced_Test_Plan.jmx -l 512_basic_java.jtl -e -o report_512_advance_springboot -Jthreads=512
+sudo ../apache-jmeter-5.4.1/bin/jmeter -n -t Spring_Boot_Advanced_Test_Plan.jmx -l 1024_basic_java.jtl -e -o report_1024_advance_springboot -Jthreads=1024
+
+
+
+
+
+
